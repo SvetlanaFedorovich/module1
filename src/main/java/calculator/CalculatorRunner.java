@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class CalculatorRunner {
 
     public static void main(String[] args) {
-        System.out.println("Введите выражение:");
+        System.out.println("Введите выражение a + b, a - b, a * b, a / b:");
         Scanner in = new Scanner(System.in);
         String calculator = in.nextLine();
         calculator = calculator.trim();
