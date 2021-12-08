@@ -15,7 +15,7 @@ public class Validator {
 
         try {
             if (numbers.length < str.split(" ").length) {
-                throw new Exception("Too many values");
+                throw new Exception("Слишком много значений");
             }
             switch (numbers[1]) {
                 case "+":
